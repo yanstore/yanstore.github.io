@@ -7,10 +7,30 @@ html {
   font-family: 'Bebas Neue', cursive;
 }
 
+.media-icons a{
+  color: #fff;
+  font-size: 25px;
+  margin-right: 28px;
+}
+
+header{
+  z-index: 999;
+  position: center;
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
 .container {
   max-width: 500px;
   margin: 0 auto;
-  background: red;
+  background: black;
   height: 100vh;
   background-image: url("gif/bg.gif");
   background-position: center;
@@ -69,6 +89,7 @@ html {
 
 .footer {
   text-align: center;
+  margin:50px;
 }
 
 .footer>i {
