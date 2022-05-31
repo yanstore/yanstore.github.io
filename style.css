@@ -10,7 +10,7 @@ html {
 .media-icons a{
   color: #fff;
   font-size: 25px;
-  margin-right: 30px;
+  margin-right: 28px;
 }
 
 header{
@@ -30,7 +30,7 @@ header{
 .container {
   max-width: 500px;
   margin: 0 auto;
-  background: red;
+  background: black;
   height: 100vh;
   background-image: url("gif/bg.gif");
   background-position: center;
@@ -89,6 +89,7 @@ header{
 
 .footer {
   text-align: center;
+  margin:50px;
 }
 
 .footer>i {
